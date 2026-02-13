@@ -1,0 +1,45 @@
+# ========================
+# Python
+# ========================
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.env
+
+# ========================
+# Logs
+# ========================
+logs/
+infra/logs/
+*.log
+
+# ========================
+# Airflow
+# ========================
+airflow.db
+airflow.cfg
+webserver_config.py
+infra/airflow/logs/
+infra/airflow/airflow.db
+
+# ========================
+# Kafka / Zookeeper data
+# ========================
+kafka-data/
+zookeeper-data/
+
+# ========================
+# Docker
+# ========================
+*.pid
+*.out
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
